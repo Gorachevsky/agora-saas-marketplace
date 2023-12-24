@@ -15,7 +15,7 @@ First of all we init the project executing in our terminal the `npx create-next-
 npx create-next-app@latest agora-saas-marketplace --ts --tailwind --eslint --app --src-dir --use-bun
 ```
 
-In our case we directly added the following options:
+In our case we directly added the name of the project *agora-saas-marketplace* and the following options:
 
 - `--ts`: Initialize as a TypeScript project.
 - `--tailwind`:  Initialize with Tailwind CSS config.
