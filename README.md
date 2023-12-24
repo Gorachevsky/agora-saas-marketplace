@@ -6,6 +6,7 @@ This is a Demo which contains a SaaS Marketplace with complex user profiles.
 
 - [Bun](https://bun.sh/) as the package manager.
 - [Next.js](https://nextjs.org/) as the React framework.
+- [shadcn/ui](https://ui.shadcn.com/) as the ui component library.
 
 ## Guide
 
@@ -36,7 +37,7 @@ After the installation, we can preview the result with the following command:
 bun run dev
 ```
 
-<img src="" width="800" height="800" />
+<img src="https://raw.githubusercontent.com/Gorachevsky/agora-saas-marketplace/production/media/step_1_default_preview.png" align="center" width="800" height="800" />
 
 ### Step 2 | Getting rid of the default code
 
@@ -55,4 +56,28 @@ export default function Home() {
 }
 ```
 
-<img src="" width="800" height="800" />
+<img src="https://raw.githubusercontent.com/Gorachevsky/agora-saas-marketplace/production/media/step_2_after_clean.png" align="center" width="365" height="251" />
+
+## Step 3 | Implementation of the theme
+
+For this project we will use the ui component library **shadcn/ui** instead of generating them manually: 
+
+> Terminal
+```console
+npx shadcn-ui@latest init -y
+```
+
+After executing the command we will be prompted with a series of questions which we must answer as follows:
+
+```console
+Would you like to use Typescript (recommended)? ... Yes
+Which style would you like to use? ... Default
+Which color would you like to use as base color? ... Slate
+Where is your global CSS file? ... src/globals.css
+Would you like to use CSS Variables for colors? ... yes
+Where is your tailwind.config.js located? ... tailwind.config.ts
+Configure the import alias for components: ... @/components
+Configure the import alias for utils: ... @/lib/utils
+Are you using React Server Components? ... yes
+Write configuration to components.json. Proceed? ... yes
+```
