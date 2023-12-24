@@ -36,7 +36,7 @@ After the installation, we can preview the result with the following command:
 bun run dev
 ```
 
-<img src="https://raw.githubusercontent.com/Gorachevsky/agora-saas-marketplace/production/media/step_1_default_preview.png" align="center" width="800" height="800" />
+<img src="https://raw.githubusercontent.com/Gorachevsky/agora-saas-marketplace/production/media/step_1_default_preview.png" align="center" width="1195" height="1156" />
 
 ### Step 2 | Getting rid of the default code
 
@@ -55,4 +55,4 @@ export default function Home() {
 }
 ```
 
-<img src="https://raw.githubusercontent.com/Gorachevsky/agora-saas-marketplace/production/media/step_2_after_clean.png" align="center" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/Gorachevsky/agora-saas-marketplace/production/media/step_2_after_clean.png" align="center" width="365" height="251" />
