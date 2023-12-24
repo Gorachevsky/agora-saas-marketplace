@@ -30,9 +30,11 @@ During installation, we will be asked if we want to customize the default import
 
 ### Step 2 | Getting rid of the default code
 
-First of all we will remove the `main` tag and everything it contains inside the `page.tsx` file located in the `src/app` folder.
+First of all we will remove the `main` tag and everything it contains inside the `page.tsx` file located in the `src/app` folder. 
 
 We will include a `p` tag with a message "Hello World" to avoid errors and to visualize that everything continues working correctly after having applied the deletion.
+
+Additionally, we will delete the import since it will not be necessary, resulting in the following file:
 
 > src/app/page.tsx
 ```typescript
