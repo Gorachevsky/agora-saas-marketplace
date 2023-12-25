@@ -7,6 +7,8 @@ import NavItem from "./NavItem";
 const NavItems = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
+  const isAnyOpen = activeIndex !== null;
+
   return (
     <div className="flex gap-4 h-full">
       {PRODUCT_CATEGORIES.map((category, i) => {
@@ -25,7 +27,7 @@ const NavItems = () => {
             category={category}
             handleOpen={handleOpen}
             isOpen={isOpen}
-            isAnyOpen={!!activeIndex}
+            isAnyOpen={isAnyOpen}
           />
         );
       })}
