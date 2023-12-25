@@ -1,4 +1,6 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { Button, buttonVariants } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,6 +10,16 @@ export default function Home() {
           Your marketplace for high-quality{" "}
           <span className="text-green-600">digital assets</span>.
         </h1>
+        <p className="mt-6 text-lg max-w-prose text-muted-foreground">
+          Welcome to Agora&apos;s Marketplace. Every asset on out platform is
+          verified by out team to ensure our highest quality standards.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 mt-6">
+          <Link href="/products" className={buttonVariants()}>
+            Browse Trending
+          </Link>
+          <Button variant="ghost">Our quality promise &rarr;</Button>
+        </div>
       </div>
     </MaxWidthWrapper>
   );
