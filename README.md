@@ -8,3 +8,4 @@ This is a Demo which contains a SaaS Marketplace with complex user profiles.
 - [Next.js](https://nextjs.org/) as the React framework.
 - [shadcn/ui](https://ui.shadcn.com/) as the ui component library.
 - [Lucide](https://lucide.dev/) as the icons library.
+- [Express](https://expressjs.com/) as the Middleware Framework.
